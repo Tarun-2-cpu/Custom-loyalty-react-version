@@ -1,0 +1,63 @@
+/* Set background image for the wrapper */
+.wrapper {
+    background-image: url('../assets/img/login/balloon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 100vh;
+    background-position-x:20%;
+    background-position-y:80%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+.card-auth {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.side-image{
+    background-image: url('../assets/img/login/balloon-lg.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:cover;
+    background-position-x:60%;
+    width: 100%;
+    height: 570px;
+    padding-left:35px;
+    padding-right:30px;
+    padding-top:95px;
+}
+
+
+
+.side-form{
+    margin:0 auto;
+    padding:15px 45px;
+    padding-top:15px;
+}
+
+.side-form a span img{
+    width:100px;
+    margin-bottom:25px;
+}
+
+.sign{
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    padding: .75rem 2.6rem .6rem 2.6rem;
+    background-color: #00365a;
+    border-color: #00365a;
+    color: #fff;
+    border-radius:50px;
+    font-size: .8rem;
+}
