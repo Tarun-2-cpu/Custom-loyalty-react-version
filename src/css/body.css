@@ -1520,3 +1520,24 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 footer{
     margin-left:120px;
 }
+
+
+.list-offer,
+.list-reward{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:20px; 
+    flex-wrap:wrap;
+}
+.reward-card,
+.offer-card{
+    width:25%;
+}
+.custom-loyalty{
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    font-weight:900;
+    
+}

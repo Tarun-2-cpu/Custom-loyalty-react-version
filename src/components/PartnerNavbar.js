@@ -28,17 +28,11 @@ function PartnerNavbar() {
                     </Link>
                 </div>
                 <Link className="navbar-logo" href="Dashboard.Default.html">
-                    <span className="logo d-none d-xs-block" />
-                    <span className="logo-mobile d-block d-xs-none" />
+                    <span className="custom-loyalty d-none d-xs-block"> Custom Loyalty Program </span>
                 </Link>
                 <div className="navbar-right">
                     <div className="header-icons d-inline-block align-middle">
-                        <div className="d-none d-md-inline-block align-text-bottom mr-3">
-                            <div className="custom-switch custom-switch-primary-inverse custom-switch-small pl-1" data-toggle="tooltip" data-placement="left" title="Dark Mode">
-                                <input className="custom-switch-input" id="switchDark" type="checkbox" defaultChecked />
-                                <label className="custom-switch-btn" htmlFor="switchDark" />
-                            </div>
-                        </div>
+                        
                         <button className="header-icon btn btn-empty d-none d-sm-inline-block" type="button" id="fullScreenButton">
                             <i className="simple-icon-size-fullscreen" />
                             <i className="simple-icon-size-actual" />
@@ -46,10 +40,7 @@ function PartnerNavbar() {
                     </div>
                     <div className="user d-inline-block">
                         <button className="btn btn-empty p-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span className="name">Sarah Kortney</span>
-                            <span>
-                                <img alt="Profile Picture" src="img/profiles/l-1.jpg" />
-                            </span>
+                            <span className="name">User</span>
                         </button>
                         <div className="dropdown-menu dropdown-menu-right mt-3">
                             <Link className="dropdown-item log-out">Sign out</Link>

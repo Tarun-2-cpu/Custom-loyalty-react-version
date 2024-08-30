@@ -191,9 +191,9 @@ function AddReward() {
                                             <div className="row mb-10">
                                                 <div className="col-md-12 mb-4 pl-0 pr-0">
                                                     <div className="slick-container">
-                                                        <div className="slick basic" id="rewardlist">
+                                                        <div className="slick basic list-reward" id="rewardlist">
                                                             {rewardList.map((reward, index) => (
-                                                                <div className="card d-flex text-center m-4" key={index}>
+                                                                <div className="card d-flex text-center m-4 reward-card" key={index}>
                                                                     <div className="d-flex flex-grow-1 min-width-zero">
                                                                         <div className="card-body m-auto d-flex align-content-center flex-column flex-lg-row justify-content-center min-width-zero">
                                                                             <div className="min-width-zero card-details">

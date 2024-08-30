@@ -36,7 +36,7 @@ function Addoffer() {
             let offerData = partnerData.addOfferResults.reverse();
 
             for (let i = 0; i < offerData.length; i++) {
-                offerList.append('<div class="card d-flex text-center">' +
+                offerList.append('<div class="card d-flex text-center m-4 offer-card">' +
                 '<div class="d-flex flex-grow-1 min-width-zero">' +
                 '<div class="card-body m-auto d-flex align-content-center flex-column flex-lg-row justify-content-center min-width-zero">' +
                 '<div class="min-width-zero card-details">' +
@@ -88,8 +88,8 @@ function Addoffer() {
                 } else {
                     console.log("Offer added successfully");
                     
-                    $('#offerlist').append( '<div class="card d-flex text-center">' +
-                    '<div class="d-flex flex-grow-1 min-width-zero">' +
+                    $('#offerlist').append( '<div class="card d-flex text-center offer-card m-4">' +
+                    '<div class="d-flex flex-grow-1 min-width-zero m-4">' +
                     '<div class="card-body m-auto d-flex align-content-center flex-column flex-lg-row justify-content-center min-width-zero">' +
                     '<div class="min-width-zero card-details">' +
                     '<p class="list-item-heading mb-1 truncate">' + offerproduct + '</p>' +
@@ -216,7 +216,7 @@ function Addoffer() {
                                             <div className="row mb-10">
                                                 <div className="col-md-12 mb-4 pl-0 pr-0">
                                                     <div className="slick-container">
-                                                        <div className="slick basic" id="offerlist">
+                                                        <div className="slick basic list-offer" id="offerlist">
                                                             
                                                         </div>
                                                     </div>
