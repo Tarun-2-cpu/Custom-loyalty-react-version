@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="800" height="400">
+  <g stroke="#000000" fill="none" stroke-width="2">
+    <!-- Handshake (slightly larger) -->
+    <path d="M140 70 Q170 50 200 70 Q230 90 260 70" />
+    <path d="M140 70 Q170 90 200 70 Q230 50 260 70" />
+    
+    <!-- Dollar Symbol (slightly larger) -->
+    <text x="200" y="70" font-size="24" text-anchor="middle" fill="#000000">$</text>
+
+    <!-- Trophy Icon (slightly larger) -->
+    <rect x="180" y="90" width="40" height="20" fill="#000000" />
+    <rect x="190" y="80" width="20" height="14" fill="#000000" />
+    <circle cx="200" cy="74" r="6" fill="#000000" />
+  </g>
+
+  <!-- Text: Custom Loyalty Program (larger) -->
+  <text x="200" y="170" font-size="32" text-anchor="middle" fill="#000000" font-family="Arial, sans-serif" font-weight="bold">
+    Custom Loyalty Program
+  </text>
+</svg>

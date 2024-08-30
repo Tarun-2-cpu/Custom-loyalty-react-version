@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Custom-loyalty-react-version/static/css/main.191ebdcc.css",
+    "main.js": "/Custom-loyalty-react-version/static/js/main.f9ee601b.js",
+    "static/js/453.ebae4036.chunk.js": "/Custom-loyalty-react-version/static/js/453.ebae4036.chunk.js",
+    "static/media/balloon-lg.jpg": "/Custom-loyalty-react-version/static/media/balloon-lg.c94920d96c9c2213c3ea.jpg",
+    "static/media/balloon.jpg": "/Custom-loyalty-react-version/static/media/balloon.ce8d76b9ee30cc857c70.jpg",
+    "static/media/black.svg": "/Custom-loyalty-react-version/static/media/black.e27080da98a1aceafd12.svg",
+    "static/media/mobile.svg": "/Custom-loyalty-react-version/static/media/mobile.620abd8c69883f088188.svg",
+    "index.html": "/Custom-loyalty-react-version/index.html",
+    "main.191ebdcc.css.map": "/Custom-loyalty-react-version/static/css/main.191ebdcc.css.map",
+    "main.f9ee601b.js.map": "/Custom-loyalty-react-version/static/js/main.f9ee601b.js.map",
+    "453.ebae4036.chunk.js.map": "/Custom-loyalty-react-version/static/js/453.ebae4036.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.191ebdcc.css",
+    "static/js/main.f9ee601b.js"
+  ]
+}
